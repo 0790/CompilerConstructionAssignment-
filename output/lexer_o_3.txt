@@ -1,0 +1,28 @@
+Token 34, string for,line number 1
+Token 8, string (, line number 1
+Token 31, string let,line number 1
+Token 30, string i, line number 1
+Token 15, string =, line number 1
+Token 46, string 1, line number 1
+Token 12, string ;, line number 1
+Token 30, string i, line number 1
+Token 21, string <, line number 1
+Token 46, string 5, line number 1
+Token 12, string ;, line number 1
+Token 30, string i, line number 1
+Token 15, string =, line number 1
+Token 30, string i, line number 1
+Token 1, string +, line number 1
+Token 46, string 1, line number 1
+Token 9, string ), line number 1
+Token 6, string {, line number 1
+Token 30, string text, line number 2
+Token 1, string +, line number 2
+Token 15, string =, line number 2
+Token 48, string The number is , line number 2
+Token 1, string +, line number 2
+Token 30, string i, line number 2
+Token 1, string +, line number 2
+Token 48, string <br>, line number 2
+Token 12, string ;, line number 2
+Token 7, string }, line number 3

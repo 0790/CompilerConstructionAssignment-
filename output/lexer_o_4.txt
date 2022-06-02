@@ -1,0 +1,26 @@
+Token 31, string let,line number 1
+Token 30, string carA, line number 1
+Token 15, string =, line number 1
+Token 48, string Saab, line number 1
+Token 12, string ;, line number 1
+Token 31, string let,line number 2
+Token 30, string carB, line number 2
+Token 15, string =, line number 2
+Token 48, string Volvo, line number 2
+Token 12, string ;, line number 2
+Token 31, string let,line number 3
+Token 30, string carC, line number 3
+Token 15, string =, line number 3
+Token 48, string BMW, line number 3
+Token 12, string ;, line number 3
+Token 33, string const,line number 4
+Token 30, string cars, line number 4
+Token 15, string =, line number 4
+Token 10, string [, line number 4
+Token 48, string Saab, line number 4
+Token 13, string ,, line number 4
+Token 48, string Volvo, line number 4
+Token 13, string ,, line number 4
+Token 48, string BMW, line number 4
+Token 11, string ], line number 4
+Token 12, string ;, line number 4

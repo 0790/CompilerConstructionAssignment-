@@ -1,0 +1,5 @@
+Token 33, string const,line number 1
+Token 30, string x, line number 1
+Token 15, string =, line number 1
+Token 46, string 4, line number 1
+Token 12, string ;, line number 1

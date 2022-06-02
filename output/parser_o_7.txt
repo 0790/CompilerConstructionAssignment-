@@ -1,0 +1,743 @@
+
+
+Input :
+id = integer ; id = integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+<start> $ 
+Matched :
+
+
+Input :
+id = integer ; id = integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+<code> $ 
+Matched :
+
+
+Input :
+id = integer ; id = integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+S <code> $ 
+Matched :
+
+
+Input :
+id = integer ; id = integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+id I <code> $ 
+Matched :
+
+
+Input :
+= integer ; id = integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+I <code> $ 
+Matched :
+id 
+
+Input :
+= integer ; id = integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+= I1 <code> $ 
+Matched :
+id 
+
+Input :
+integer ; id = integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+I1 <code> $ 
+Matched :
+id = 
+
+Input :
+integer ; id = integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+Ar <code> $ 
+Matched :
+id = 
+
+Input :
+integer ; id = integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+V Ar1 <code> $ 
+Matched :
+id = 
+
+Input :
+integer ; id = integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+integer Ar1 <code> $ 
+Matched :
+id = 
+
+Input :
+; id = integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+Ar1 <code> $ 
+Matched :
+id = integer 
+
+Input :
+; id = integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+; <code> $ 
+Matched :
+id = integer 
+
+Input :
+id = integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+<code> $ 
+Matched :
+id = integer ; 
+
+Input :
+id = integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+S <code> $ 
+Matched :
+id = integer ; 
+
+Input :
+id = integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+id I <code> $ 
+Matched :
+id = integer ; 
+
+Input :
+= integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+I <code> $ 
+Matched :
+id = integer ; id 
+
+Input :
+= integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+= I1 <code> $ 
+Matched :
+id = integer ; id 
+
+Input :
+integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+I1 <code> $ 
+Matched :
+id = integer ; id = 
+
+Input :
+integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+Ar <code> $ 
+Matched :
+id = integer ; id = 
+
+Input :
+integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+V Ar1 <code> $ 
+Matched :
+id = integer ; id = 
+
+Input :
+integer ; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+integer Ar1 <code> $ 
+Matched :
+id = integer ; id = 
+
+Input :
+; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+Ar1 <code> $ 
+Matched :
+id = integer ; id = integer 
+
+Input :
+; let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+; <code> $ 
+Matched :
+id = integer ; id = integer 
+
+Input :
+let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+<code> $ 
+Matched :
+id = integer ; id = integer ; 
+
+Input :
+let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+S <code> $ 
+Matched :
+id = integer ; id = integer ; 
+
+Input :
+let id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+let II <code> $ 
+Matched :
+id = integer ; id = integer ; 
+
+Input :
+id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+II <code> $ 
+Matched :
+id = integer ; id = integer ; let 
+
+Input :
+id = id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+id I <code> $ 
+Matched :
+id = integer ; id = integer ; let 
+
+Input :
+= id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+I <code> $ 
+Matched :
+id = integer ; id = integer ; let id 
+
+Input :
+= id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+= I1 <code> $ 
+Matched :
+id = integer ; id = integer ; let id 
+
+Input :
+id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+I1 <code> $ 
+Matched :
+id = integer ; id = integer ; let id = 
+
+Input :
+id + id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+id ( V' <code> $ 
+Matched :
+id = integer ; id = integer ; let id = 
+
+Input :
++ id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+( V' <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id 
+Error in Line Number : 3Pop Terminal : (
+
+Input :
++ id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+V' <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id 
+Error in Line Number : 3 Skip Lexeme : +
+
+
+Input :
+id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+V' <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id 
+
+Input :
+id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+V <start> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id 
+
+Input :
+id ; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+id <start> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id 
+
+Input :
+; let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+<start> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id 
+Error in Line Number : 3 Skip Lexeme : ;
+
+
+Input :
+let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+<start> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id 
+
+Input :
+let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+<code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id 
+
+Input :
+let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+S <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id 
+
+Input :
+let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+let II <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id 
+
+Input :
+id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+II <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let 
+
+Input :
+id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+id I <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let 
+
+Input :
+= integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+I <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id 
+
+Input :
+= integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+= I1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id 
+
+Input :
+integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+I1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = 
+
+Input :
+integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+Ar <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = 
+
+Input :
+integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+V Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = 
+
+Input :
+integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+integer Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = 
+
+Input :
+* integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer 
+
+Input :
+* integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+* Ar <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer 
+
+Input :
+integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+Ar <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * 
+
+Input :
+integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+V Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * 
+
+Input :
+integer + id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+integer Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * 
+
+Input :
++ id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer 
+
+Input :
++ id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
++ Ar <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer 
+
+Input :
+id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+Ar <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + 
+
+Input :
+id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+V Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + 
+
+Input :
+id ; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+id Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + 
+
+Input :
+; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id 
+
+Input :
+; let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+; <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id 
+
+Input :
+let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+<code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; 
+
+Input :
+let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+S <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; 
+
+Input :
+let id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+let II <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; 
+
+Input :
+id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+II <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let 
+
+Input :
+id = integer * integer / id % integer - integer / integer ; $ 
+Stack :
+id I <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let 
+
+Input :
+= integer * integer / id % integer - integer / integer ; $ 
+Stack :
+I <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id 
+
+Input :
+= integer * integer / id % integer - integer / integer ; $ 
+Stack :
+= I1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id 
+
+Input :
+integer * integer / id % integer - integer / integer ; $ 
+Stack :
+I1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = 
+
+Input :
+integer * integer / id % integer - integer / integer ; $ 
+Stack :
+Ar <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = 
+
+Input :
+integer * integer / id % integer - integer / integer ; $ 
+Stack :
+V Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = 
+
+Input :
+integer * integer / id % integer - integer / integer ; $ 
+Stack :
+integer Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = 
+
+Input :
+* integer / id % integer - integer / integer ; $ 
+Stack :
+Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer 
+
+Input :
+* integer / id % integer - integer / integer ; $ 
+Stack :
+* Ar <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer 
+
+Input :
+integer / id % integer - integer / integer ; $ 
+Stack :
+Ar <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * 
+
+Input :
+integer / id % integer - integer / integer ; $ 
+Stack :
+V Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * 
+
+Input :
+integer / id % integer - integer / integer ; $ 
+Stack :
+integer Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * 
+
+Input :
+/ id % integer - integer / integer ; $ 
+Stack :
+Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer 
+
+Input :
+/ id % integer - integer / integer ; $ 
+Stack :
+/ Ar <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer 
+
+Input :
+id % integer - integer / integer ; $ 
+Stack :
+Ar <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / 
+
+Input :
+id % integer - integer / integer ; $ 
+Stack :
+V Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / 
+
+Input :
+id % integer - integer / integer ; $ 
+Stack :
+id Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / 
+
+Input :
+% integer - integer / integer ; $ 
+Stack :
+Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id 
+
+Input :
+% integer - integer / integer ; $ 
+Stack :
+% Ar <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id 
+
+Input :
+integer - integer / integer ; $ 
+Stack :
+Ar <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % 
+
+Input :
+integer - integer / integer ; $ 
+Stack :
+V Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % 
+
+Input :
+integer - integer / integer ; $ 
+Stack :
+integer Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % 
+
+Input :
+- integer / integer ; $ 
+Stack :
+Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer 
+
+Input :
+- integer / integer ; $ 
+Stack :
+- Ar <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer 
+
+Input :
+integer / integer ; $ 
+Stack :
+Ar <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer - 
+
+Input :
+integer / integer ; $ 
+Stack :
+V Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer - 
+
+Input :
+integer / integer ; $ 
+Stack :
+integer Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer - 
+
+Input :
+/ integer ; $ 
+Stack :
+Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer - integer 
+
+Input :
+/ integer ; $ 
+Stack :
+/ Ar <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer - integer 
+
+Input :
+integer ; $ 
+Stack :
+Ar <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer - integer / 
+
+Input :
+integer ; $ 
+Stack :
+V Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer - integer / 
+
+Input :
+integer ; $ 
+Stack :
+integer Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer - integer / 
+
+Input :
+; $ 
+Stack :
+Ar1 <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer 
+
+Input :
+; $ 
+Stack :
+; <code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer 
+
+Input :
+$ 
+Stack :
+<code> <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; 
+
+Input :
+$ 
+Stack :
+eps <code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; 
+Error in Line Number : 9999Pop Terminal : eps
+
+Input :
+$ 
+Stack :
+<code> $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; 
+
+Input :
+$ 
+Stack :
+eps $ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; 
+Error in Line Number : 9999Pop Terminal : eps
+
+Input :
+$ 
+Stack :
+$ 
+Matched :
+id = integer ; id = integer ; let id = id id let id = integer * integer + id ; let id = integer * integer / id % integer - integer / integer ; 

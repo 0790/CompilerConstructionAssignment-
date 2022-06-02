@@ -1,0 +1,69 @@
+Start -> Code
+Code -> ''
+Code -> S Code
+S -> id I
+S -> let II
+S -> const II
+S -> for F
+S -> IF
+S -> function FF
+S -> Ar
+S -> return Ar
+I -> = I1
+I1 -> [ I2
+I1 -> { Iobj
+I1 -> id ( V'
+I1 -> Ar
+I2 -> I46arr
+I2 -> I44arr
+I2 -> I48arr
+I44arr -> 44 P1
+P1 -> , I44arr 
+P1 -> ] ;
+I46arr -> 46 P2
+P2 -> , I46arr 
+P2 -> ] ;
+I48arr -> 48 P3
+P3 -> , I48arr 
+P3 -> ] ;
+Iobj -> id : V P4
+P4 -> , Iobj
+P4 -> } ;
+V -> 44
+V -> 46
+V -> 48
+V -> id
+II -> id I
+F -> ( A ; B ; C ) {   Code }
+A -> let A'
+A -> ''
+A' -> id = V X1
+X1 -> , A'
+X1 -> ''
+B -> V B1
+B1 -> <= V
+B1 -> < V
+B1 -> >= V
+B1 -> > V
+B1 -> == V
+B1 -> || V
+B1 -> && V
+C -> id = id C1
+C1 -> + 44
+C1 -> - 44
+IF -> if ( B ){ Code } else IF
+IF -> if { Code }
+FF -> if ( F'
+F' -> id ) F2
+F2 -> ''
+F2 -> { Code }
+V' -> V V1
+V1 -> , V'
+V1 -> )
+Ar -> V Ar1
+Ar1 -> * Ar
+Ar1 -> + Ar
+Ar1 -> / Ar
+Ar1 -> % Ar
+Ar1 -> - Ar
+Ar1 -> ;

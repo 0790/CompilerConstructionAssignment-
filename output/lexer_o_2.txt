@@ -1,0 +1,19 @@
+Token 37, string if,line number 1
+Token 8, string (, line number 1
+Token 30, string hour, line number 1
+Token 21, string <, line number 1
+Token 46, string 18, line number 1
+Token 9, string ), line number 1
+Token 6, string {, line number 1
+Token 30, string greeting, line number 2
+Token 15, string =, line number 2
+Token 48, string Good day, line number 2
+Token 12, string ;, line number 2
+Token 7, string }, line number 3
+Token 38, string else,line number 3
+Token 6, string {, line number 3
+Token 30, string greeting, line number 4
+Token 15, string =, line number 4
+Token 48, string Good evening, line number 4
+Token 12, string ;, line number 4
+Token 7, string }, line number 5

@@ -1,0 +1,20 @@
+Token 39, string function,line number 1
+Token 30, string myFunction, line number 1
+Token 8, string (, line number 1
+Token 30, string p, line number 1
+Token 13, string ,, line number 1
+Token 30, string q, line number 1
+Token 9, string ), line number 1
+Token 6, string {, line number 1
+Token 40, string return,line number 2
+Token 30, string p, line number 2
+Token 3, string *, line number 2
+Token 30, string q, line number 2
+Token 12, string ;, line number 2
+Token 7, string }, line number 3
+Token 33, string const,line number 4
+Token 30, string x, line number 4
+Token 15, string =, line number 4
+Token 30, string myFunction, line number 4
+Token 8, string (, line number 4
+Token 9, string ), line number 4

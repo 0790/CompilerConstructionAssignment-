@@ -1,0 +1,4 @@
+let carA = "Saab";
+let carB = "Volvo";
+let carC = "BMW";
+const cars = ["Saab", "Volvo", "BMW"];

@@ -1,0 +1,39 @@
+Token 30, string a, line number 1
+Token 15, string =, line number 1
+Token 46, string 1, line number 1
+Token 12, string ;, line number 1
+Token 30, string b, line number 2
+Token 15, string =, line number 2
+Token 46, string 4, line number 2
+Token 12, string ;, line number 2
+Token 31, string let,line number 3
+Token 30, string x, line number 3
+Token 15, string =, line number 3
+Token 30, string a, line number 3
+Token 1, string +, line number 3
+Token 30, string b, line number 3
+Token 12, string ;, line number 3
+Token 31, string let,line number 4
+Token 30, string x, line number 4
+Token 15, string =, line number 4
+Token 46, string 100, line number 4
+Token 3, string *, line number 4
+Token 46, string 50, line number 4
+Token 1, string +, line number 4
+Token 30, string a, line number 4
+Token 12, string ;, line number 4
+Token 31, string let,line number 5
+Token 30, string x, line number 5
+Token 15, string =, line number 5
+Token 46, string 100, line number 5
+Token 3, string *, line number 5
+Token 46, string 50, line number 5
+Token 4, string /, line number 5
+Token 30, string a, line number 5
+Token 5, string %, line number 5
+Token 46, string 10, line number 5
+Token 2, string -, line number 5
+Token 46, string 40, line number 5
+Token 4, string /, line number 5
+Token 46, string 2, line number 5
+Token 12, string ;, line number 5

@@ -1,0 +1,121 @@
+
+
+Input :
+const id = integer ; $ 
+Stack :
+<start> $ 
+Matched :
+
+
+Input :
+const id = integer ; $ 
+Stack :
+<code> $ 
+Matched :
+
+
+Input :
+const id = integer ; $ 
+Stack :
+S <code> $ 
+Matched :
+
+
+Input :
+const id = integer ; $ 
+Stack :
+const II <code> $ 
+Matched :
+
+
+Input :
+id = integer ; $ 
+Stack :
+II <code> $ 
+Matched :
+const 
+
+Input :
+id = integer ; $ 
+Stack :
+id I <code> $ 
+Matched :
+const 
+
+Input :
+= integer ; $ 
+Stack :
+I <code> $ 
+Matched :
+const id 
+
+Input :
+= integer ; $ 
+Stack :
+= I1 <code> $ 
+Matched :
+const id 
+
+Input :
+integer ; $ 
+Stack :
+I1 <code> $ 
+Matched :
+const id = 
+
+Input :
+integer ; $ 
+Stack :
+Ar <code> $ 
+Matched :
+const id = 
+
+Input :
+integer ; $ 
+Stack :
+V Ar1 <code> $ 
+Matched :
+const id = 
+
+Input :
+integer ; $ 
+Stack :
+integer Ar1 <code> $ 
+Matched :
+const id = 
+
+Input :
+; $ 
+Stack :
+Ar1 <code> $ 
+Matched :
+const id = integer 
+
+Input :
+; $ 
+Stack :
+; <code> $ 
+Matched :
+const id = integer 
+
+Input :
+$ 
+Stack :
+<code> $ 
+Matched :
+const id = integer ; 
+
+Input :
+$ 
+Stack :
+eps $ 
+Matched :
+const id = integer ; 
+Error in Line Number : 9999Pop Terminal : eps
+
+Input :
+$ 
+Stack :
+$ 
+Matched :
+const id = integer ; 

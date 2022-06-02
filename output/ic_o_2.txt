@@ -1,0 +1,7 @@
+1.	if ( hour < 18 ) goto 5
+2.		T1 = "Good day"
+3.		greeting = T1
+4. 		goto 7
+5.		T2 = "Good evening"
+6.		greeting = T2
+7.

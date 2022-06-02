@@ -1,0 +1,4 @@
+function myFunction( p, q ) {
+  return p * q;   // The function returns the product of p and q
+}
+const x=myFunction( )
